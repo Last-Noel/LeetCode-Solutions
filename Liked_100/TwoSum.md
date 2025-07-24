@@ -1,6 +1,7 @@
 # TwoSum
 
-Difficulty : <code style="color : green">Easy</code>
+Difficulty : <code>Easy</code> 🟢
+Completed : 2025-07-23
 
 I'll figure out how to make this prettier next time with pictures and what not but for now doing this easy problem actually cooked me I need to lock in.
 
