@@ -22,3 +22,22 @@ class Solution:
                         return answer
         return None
 ```
+# Update:
+On second view of this I realized that I was doing the brute force way of solving this problem, which is
+simply no bueno IMO. I need to be better about utilizing hash maps and what not for these kind of things.
+
+You can easily get a faster processing speed by using a hashmap to find the complement over bruteforcing.
+Here's the new version of this I was able to implement (thank you LeetCode solutions)
+
+```
+class Solution:
+    def twoSum(self, nums: List[int], target: int) -> List[int]:
+        values = {}
+        for i in range(len(nums)):
+            values.update({nums[i] : i})
+
+        for i in range(len(nums)):
+            complement = target - nums[i]
+            if complement in values and values[complement] != i:
+                return [i, values[complement]]
+```
