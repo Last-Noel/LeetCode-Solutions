@@ -1,6 +1,6 @@
 # TwoSum
 
-Difficulty : Easy
+Difficulty : <p style="color:green">Easy</p>
 
 I'll figure out how to make this prettier next time with pictures and what not but for now doing this easy problem actually cooked me I need to lock in.
 
