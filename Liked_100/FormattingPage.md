@@ -1,4 +1,4 @@
-# TwoSum
+# LeetCode Problem Name
 
 Difficulty : <code></code>  \
 Completed : date
